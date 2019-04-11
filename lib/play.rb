@@ -35,4 +35,21 @@ def turn(board)
   end
 end
 
+#the play methode
+
+def play(board)
+  counter = 0 
+  position = 3
+  loop do
+    counter +=1
+    turn(board)
+    if counter >= position
+    puts " your position is #{position}"
+  
+    end
+    
+  end
+end
+
+
 # Define your play method below
