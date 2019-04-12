@@ -37,6 +37,7 @@ end
 
 #the play methode
 
+# Define your play method below
 def play(board)
   counter = 0 
   position = 3
@@ -52,4 +53,4 @@ def play(board)
 end
 
 
-# Define your play method below
+
